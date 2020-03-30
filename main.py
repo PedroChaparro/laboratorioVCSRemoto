@@ -1,9 +1,10 @@
-a = int(input("Ingrese el primer número: "))
-c = int(input("Ingrese el segundo número: "))
+import math
 
-producto = a * c
-print("El producto de los números {} y {} es: {}".format(a, c, producto))
+b = int(input("Ingrese un número para calcular su cuadrado: "))
+d = int(input("Ingrese un número para calcular su raíz cuadrada: "))
 
-doble_a= a * 2
-print("El doble del primer número ingresado, es decir, del {}, es: {}".format(a, doble_a))
+cuadrado = b**2
+print("El cuadrado del número {} es {}".format(b, cuadrado))
 
+raiz = math.sqrt(d)
+print("La raíz del número {} es {}".format(d, raiz))
